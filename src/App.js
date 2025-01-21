@@ -4,13 +4,14 @@ import Home from "./pages/Home/Home";
 import Shop from "./pages/Shop/Shop";
 import { ProductProvider } from './context/Context';
 import Cart from "./pages/Cart/Cart";
-
+import Footer from "./components/footer/Footer";
 function App() {
   return (
     <div>
       <ProductProvider>
       <BrowserRouter>
       <Navbar />
+      
       <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/shop" element={<Shop />}/>
@@ -18,6 +19,7 @@ function App() {
       </Routes>
       </BrowserRouter>
       </ProductProvider>
+      <Footer />
     </div>
   );
 }
