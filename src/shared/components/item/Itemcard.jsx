@@ -1,5 +1,5 @@
 import React from 'react';
-import { useProducts } from '../../context/Context';
+import { useProducts } from '../../../context/Context';
 
 const Itemcard = ({ product, onClick }) => {
   const { addToCart, removeFromCart } = useProducts();

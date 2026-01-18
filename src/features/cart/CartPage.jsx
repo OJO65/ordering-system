@@ -3,7 +3,7 @@ import { useProducts } from '../../context/Context';
 import nocart from '../../assets/images/no-cart.svg';
 import { Link } from 'react-router-dom';
 
-const Cart = () => {
+const CartPage = () => {
   const { cart, removeFromCart, clearCart } = useProducts();
   const [isModalOpen, setModalOpen] = useState(false);
   const [formData, setFormData] = useState({ name: '', email: '', address: '' });
@@ -195,4 +195,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default CartPage;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Itemcard from '../item/Itemcard';  
-import { useProducts } from '../../context/Context';  
+import Itemcard from '../../../shared/components/item/Itemcard';  
+import { useProducts } from '../../../context/Context';  
 
 const Product = () => {
   const { products, addToCart } = useProducts();  // Access addToCart from context
