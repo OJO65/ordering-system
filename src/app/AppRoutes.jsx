@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "../features/home/Home";
-import Shop from "../features/products/ProductsPage";
-import Cart from "../features/cart/CartPage";
+import Home from "../features/public/home/HomePage";
+import Shop from "../features/protected/shop/ProductsPage";
+import Cart from "../features/protected/cart/CartPage";
 
 export function AppRoutes() {
   return (
