@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../../shared/components/homeHero/Hero';
+import Hero from '../../../shared/components/homeHero/Hero';
 
 
 const HomePage = () => {

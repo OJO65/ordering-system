@@ -1,5 +1,5 @@
 import React from 'react'
-import Product from '../../shared/components/product/Product';
+import Product from '../../protected/shop/components/Product';
 
 const ProductPage = () => {
   return (
