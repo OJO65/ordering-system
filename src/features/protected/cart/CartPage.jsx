@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useProducts } from '../../../context/Context';
-import nocart from '../../../assets/images/no-cart.svg';
+import { useProducts } from 'context/Context';
+import nocart from 'assets/images/no-cart.svg';
 import { Link } from 'react-router-dom';
 
 const CartPage = () => {
