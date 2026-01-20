@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import logo from '../../../assets/images/logo.svg';
+import logo from 'assets/images/logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useProducts } from '../../../context/Context';
+import { useProducts } from 'context/Context';
 import { Link } from 'react-router-dom';
 import {
   faCartArrowDown,
