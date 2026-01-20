@@ -2,10 +2,10 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import CartPage from '../CartPage';
-import * as Context from '../../../../context/Context';
+import * as Context from 'context/Context';
 
 // Mock for the useProducts hook
-jest.mock('../../../../context/Context', () => ({
+jest.mock('context/Context', () => ({
   useProducts: jest.fn(),
 }));
 
